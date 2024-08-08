@@ -4,7 +4,7 @@ require_once '../Models/User.php';
 
 class UserController {
     private $db;
-    private $user;
+    public $user;
 
     public function __construct() {
         $this->db = new Database();
